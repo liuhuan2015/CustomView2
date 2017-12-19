@@ -20,6 +20,9 @@ import android.view.View;
  * Date: 2017/12/19 11:11
  * Description:自定义View画了一个包含图片和文字的控件
  * 涉及到自定义属性和控件测量,绘制的流程,,比第一个自定义控件练习稍显复杂些(内部有图片和文字)
+ * canvas.drawRect(...)绘制矩形
+ * canvas.drawText(...)绘制文字
+ * canvas.drawBitmap(...)绘制图片
  */
 
 public class CustomImageView extends View {
