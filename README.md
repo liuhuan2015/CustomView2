@@ -1,6 +1,6 @@
 # CustomView2
 自定义控件练习2(2017.12.19)<br>
-这个项目比CustomView1要稍微复杂一些,其中涉及到绘制图片和绘制文字,当然自定义属性是少不了的~<br>
+这个项目比CustomView1要稍微复杂一些,它自定义了一个上部是图片,底部是文字的一个View,其中涉及到绘制图片和绘制文字,当然自定义属性是少不了的~<br>
 一,在构造方法中获取自定义属性,代码和CustomView1差不多<br>
 
     TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.CustomImageView, defStyleAttr, 0);
